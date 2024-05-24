@@ -1,1 +1,1 @@
-commands=( "ls" "cat" "head" "tail" "more" "less" )
+commands=( "ls" "tr" "py" "python3" "tracepath" "ping" "nslookup" "dig" "bzip" "gzip" "bzip2" "xz" "mv" "cp" "doen" )
