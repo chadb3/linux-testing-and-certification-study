@@ -1,0 +1,23 @@
+print("**** HELPING YOU MAKE THE BASH SCRIPT ARRAY ****");
+word=""
+commandList=[];
+while(word!="done"):
+        word=input("Command to log: ");
+        if(word!="done"):
+            commandList.append(word);
+
+print("commands=(",end="")
+for command in commandList:
+    print(" \"{}\"".format(command),end="");
+print(" )",end="");
+print("")
+
+commandFile=open("commands.txt",'w',encoding='utf-8')
+
+commandFile.write("commands=( ");
+for command in commandList:
+	commandFile.write("\"{}\" ".format(command))
+commandFile.write(")");
+commandFile.close();
+
+print("DONE!");
