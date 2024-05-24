@@ -1,125 +1,118 @@
-apt-cache (8)        - query the APT cache
-apt-get (8)          - APT package handling utility -- command-line interface
-bash (1)             - GNU Bourne-Again SHell
-blkid (8)            - locate/print block device attributes
-bzcat (1)            - decompresses files to stdout
-bzip2 (1)            - a block-sorting file compressor, v1.0.8
-cat (1)              - concatenate files and print on the standard output
-chgrp (1)            - change group ownership
-chmod (1)            - change file mode bits
-chmod (2)            - change permissions of a file
-chown (1)            - change file owner and group
-chown (2)            - change ownership of a file
-cp (1)               - copy files and directories
-cpio (1)             - copy files to and from archives
-cut (1)              - remove sections from each line of files
-dd (1)               - convert and copy a file
-df (1)               - report file system space usage
-dmesg (1)            - print or control the kernel ring buffer
-dpkg (1)             - package manager for Debian
-dpkg-reconfigure (8) - reconfigure an already installed package
-du (1)               - estimate file space usage
-e2fsck (8)           - check a Linux ext2/ext3/ext4 file system
-echo (1)             - display a line of text
-egrep (1)            - print lines that match patterns
-env (1)              - run a program in a modified environment
-fdisk (8)            - manipulate disk partition table
-fgrep (1)            - print lines that match patterns
-file (1)             - determine file type
-find (1)             - search for files in a directory hierarchy
-find (1)             - search for files in a directory hierarchy
-free (1)             - Display amount of free and used memory in the system
-free (3)             - allocate and free dynamic memory
-fsck (8)             - check and repair a Linux filesystem
-gdisk (8)            - Interactive GUID partition table (GPT) manipulator
-grep (1)             - print lines that match patterns
-grub-install (8)     - install GRUB to a device
-grub-mkconfig (8)    - generate a GRUB configuration file
-gunzip (1)           - compress or expand files
-gzip (1)             - compress or expand files
-head (1)             - output the first part of files
-history (3readline)  - GNU History Library
-init (1)             - systemd system and service manager
-init (1)             - systemd system and service manager
-journalctl (1)       - Print log entries from the systemd journal
-kill (1)             - send a signal to a process
-kill (2)             - send signal to a process
-killall (1)          - kill processes by name
-ldconfig (8)         - configure dynamic linker run-time bindings
-ldd (1)              - print shared object dependencies
-less (1)             - opposite of more
-ln (1)               - make links between files
-ls (1)               - list directory contents
-ls (1)               - list directory contents
-lsblk (8)            - list block devices
-lsmod (8)            - Show the status of modules in the Linux Kernel
-lspci (8)            - list all PCI devices
-lsusb (8)            - list USB devices
-man (1)              - an interface to the system reference manuals
-man (7)              - macros to format man pages
-md5sum (1)           - compute and check MD5 message digest
-mkdir (1)            - make directories
-mkdir (2)            - create a directory
-mke2fs (8)           - create an ext2/ext3/ext4 file system
-mkfs (8)             - build a Linux filesystem
-mkswap (8)           - set up a Linux swap area
-modprobe (8)         - Add and remove modules from the Linux Kernel
-mount (2)            - mount filesystem
-mount (8)            - mount a filesystem
-mv (1)               - move (rename) files
-nice (1)             - run a program with modified scheduling priority
-nice (2)             - change process priority
-nl (1)               - number lines of files
-nohup (1)            - run a command immune to hangups, with output to a non-tty
-od (1)               - dump files in octal and other formats
-parted (8)           - a partition manipulation program
-paste (1)            - merge lines of files
-pgrep (1)            - look up, signal, or wait for processes based on name a...
-pkill (1)            - look up, signal, or wait for processes based on name a...
-ps (1)               - report a snapshot of the current processes.
-ps (1)               - report a snapshot of the current processes.
-pwd (1)              - print name of current/working directory
-regex (3)            - POSIX regex functions
-regex (7)            - POSIX.2 regular expressions
-renice (1)           - alter priority of running processes
-rm (1)               - remove files or directories
-rmdir (1)            - remove empty directories
-rmdir (2)            - delete a directory
-sed (1)              - stream editor for filtering and transforming text
-sed (1)              - stream editor for filtering and transforming text
-sha256sum (1)        - compute and check SHA256 message digest
-sha512sum (1)        - compute and check SHA512 message digest
-shutdown (2)         - shut down part of a full-duplex connection
-shutdown (8)         - Halt, power off or reboot the machine
-sort (1)             - sort lines of text files
-split (1)            - split a file into pieces
-systemctl (1)        - Control the systemd system and service manager
-systemd (1)          - systemd system and service manager
-systemd (1)          - systemd system and service manager
-tail (1)             - output the last part of files
-tar (1)              - an archiving utility
-tee (1)              - read from standard input and write to standard output ...
-tee (2)              - duplicating pipe content
-telinit (8)          - Change SysV runlevel
-top (1)              - display Linux processes
-top (1)              - display Linux processes
-touch (1)            - change file timestamps
-tr (1)               - translate or delete characters
-tune2fs (8)          - adjust tunable file system parameters on ext2/ext3/ext...
-umask (2)            - set file mode creation mask
-umount (2)           - unmount filesystem
-umount (8)           - unmount filesystems
-uname (1)            - print system information
-uname (2)            - get name and information about current kernel
-uniq (1)             - report or omit repeated lines
-uptime (1)           - Tell how long the system has been running.
-wall (1)             - write a message to all users
-watch (1)            - execute a program periodically, showing output fullscreen
-wc (1)               - print newline, word, and byte counts for each file
-whereis (1)          - locate the binary, source, and manual page files for a...
-which (1)            - locate a command
-which (1)            - locate a command
-xargs (1)            - build and execute command lines from standard input
-xz (1)               - Compress or decompress .xz and .lzma files
-xzcat (1)            - Compress or decompress .xz and .lzma files
-zcat (1)             - compress or expand files
+     1	apt-cache (8)        - query the APT cache
+     2	apt-get (8)          - APT package handling utility -- command-line interface
+     3	bash (1)             - GNU Bourne-Again SHell
+     4	blkid (8)            - locate/print block device attributes
+     5	bunzip2 (1)          - a block-sorting file compressor, v1.0.8
+     6	bzcat (1)            - decompresses files to stdout
+     7	bzip2 (1)            - a block-sorting file compressor, v1.0.8
+     8	cat (1)              - concatenate files and print on the standard output
+     9	chgrp (1)            - change group ownership
+    10	chmod (1)            - change file mode bits
+    11	chmod (2)            - change permissions of a file
+    12	chown (1)            - change file owner and group
+    13	chown (2)            - change ownership of a file
+    14	cp (1)               - copy files and directories
+    15	cpio (1)             - copy files to and from archives
+    16	cut (1)              - remove sections from each line of files
+    17	dd (1)               - convert and copy a file
+    18	df (1)               - report file system space usage
+    19	dmesg (1)            - print or control the kernel ring buffer
+    20	dpkg (1)             - package manager for Debian
+    21	dpkg-reconfigure (8) - reconfigure an already installed package
+    22	du (1)               - estimate file space usage
+    23	e2fsck (8)           - check a Linux ext2/ext3/ext4 file system
+    24	echo (1)             - display a line of text
+    25	egrep (1)            - print lines that match patterns
+    26	env (1)              - run a program in a modified environment
+    27	fdisk (8)            - manipulate disk partition table
+    28	fgrep (1)            - print lines that match patterns
+    29	file (1)             - determine file type
+    30	find (1)             - search for files in a directory hierarchy
+    31	free (1)             - Display amount of free and used memory in the system
+    32	free (3)             - allocate and free dynamic memory
+    33	fsck (8)             - check and repair a Linux filesystem
+    34	gdisk (8)            - Interactive GUID partition table (GPT) manipulator
+    35	grep (1)             - print lines that match patterns
+    36	grub-install (8)     - install GRUB to a device
+    37	grub-mkconfig (8)    - generate a GRUB configuration file
+    38	gunzip (1)           - compress or expand files
+    39	gzip (1)             - compress or expand files
+    40	head (1)             - output the first part of files
+    41	history (3readline)  - GNU History Library
+    42	init (1)             - systemd system and service manager
+    43	journalctl (1)       - Print log entries from the systemd journal
+    44	kill (1)             - send a signal to a process
+    45	kill (2)             - send signal to a process
+    46	killall (1)          - kill processes by name
+    47	ldconfig (8)         - configure dynamic linker run-time bindings
+    48	ldd (1)              - print shared object dependencies
+    49	less (1)             - opposite of more
+    50	ln (1)               - make links between files
+    51	ls (1)               - list directory contents
+    52	lsblk (8)            - list block devices
+    53	lsmod (8)            - Show the status of modules in the Linux Kernel
+    54	lspci (8)            - list all PCI devices
+    55	lsusb (8)            - list USB devices
+    56	lvm (8)              - LVM2 tools
+    57	man (1)              - an interface to the system reference manuals
+    58	man (7)              - macros to format man pages
+    59	md5sum (1)           - compute and check MD5 message digest
+    60	mkdir (1)            - make directories
+    61	mkdir (2)            - create a directory
+    62	mke2fs (8)           - create an ext2/ext3/ext4 file system
+    63	mkfs (8)             - build a Linux filesystem
+    64	mkswap (8)           - set up a Linux swap area
+    65	modprobe (8)         - Add and remove modules from the Linux Kernel
+    66	mount (2)            - mount filesystem
+    67	mount (8)            - mount a filesystem
+    68	mv (1)               - move (rename) files
+    69	nice (1)             - run a program with modified scheduling priority
+    70	nice (2)             - change process priority
+    71	nl (1)               - number lines of files
+    72	od (1)               - dump files in octal and other formats
+    73	parted (8)           - a partition manipulation program
+    74	paste (1)            - merge lines of files
+    75	pgrep (1)            - look up, signal, or wait for processes based on name and other attributes
+    76	pkill (1)            - look up, signal, or wait for processes based on name and other attributes
+    77	ps (1)               - report a snapshot of the current processes.
+    78	pwd (1)              - print name of current/working directory
+    79	regex (3)            - POSIX regex functions
+    80	regex (7)            - POSIX.2 regular expressions
+    81	renice (1)           - alter priority of running processes
+    82	rm (1)               - remove files or directories
+    83	rmdir (1)            - remove empty directories
+    84	rmdir (2)            - delete a directory
+    85	sed (1)              - stream editor for filtering and transforming text
+    86	sha256sum (1)        - compute and check SHA256 message digest
+    87	sha512sum (1)        - compute and check SHA512 message digest
+    88	shutdown (2)         - shut down part of a full-duplex connection
+    89	shutdown (8)         - Halt, power off or reboot the machine
+    90	sort (1)             - sort lines of text files
+    91	split (1)            - split a file into pieces
+    92	systemctl (1)        - Control the systemd system and service manager
+    93	systemd (1)          - systemd system and service manager
+    94	tail (1)             - output the last part of files
+    95	tar (1)              - an archiving utility
+    96	tee (1)              - read from standard input and write to standard output and files
+    97	tee (2)              - duplicating pipe content
+    98	top (1)              - display Linux processes
+    99	touch (1)            - change file timestamps
+   100	tr (1)               - translate or delete characters
+   101	tune2fs (8)          - adjust tunable file system parameters on ext2/ext3/ext4 file systems
+   102	umask (2)            - set file mode creation mask
+   103	umount (2)           - unmount filesystem
+   104	umount (8)           - unmount filesystems
+   105	uname (1)            - print system information
+   106	uname (2)            - get name and information about current kernel
+   107	uniq (1)             - report or omit repeated lines
+   108	unxz (1)             - Compress or decompress .xz and .lzma files
+   109	uptime (1)           - Tell how long the system has been running.
+   110	wall (1)             - write a message to all users
+   111	watch (1)            - execute a program periodically, showing output fullscreen
+   112	wc (1)               - print newline, word, and byte counts for each file
+   113	whereis (1)          - locate the binary, source, and manual page files for a command
+   114	which (1)            - locate a command
+   115	xargs (1)            - build and execute command lines from standard input
+   116	xz (1)               - Compress or decompress .xz and .lzma files
+   117	xzcat (1)            - Compress or decompress .xz and .lzma files
+   118	zcat (1)             - compress or expand files

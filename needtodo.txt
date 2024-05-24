@@ -1,0 +1,16 @@
+bootloader: nothing appropriate.
+SysVinit: nothing appropriate.
+/etc/inittab: nothing appropriate.
+/etc/systemd: nothing appropriate.
+/usr/lib/systemd/: nothing appropriate.
+rpm2cpio: nothing appropriate.
+yum: nothing appropriate.
+zypper: nothing appropriate.
+.bash_history: nothing appropriate.
+Quoting: nothing appropriate.
+nuhup: nothing appropriate.
+tmux: nothing appropriate.
+xfs_repair: nothing appropriate.
+xfs_fsr: nothing appropriate.
+xfs_db: nothing appropriate.
+updatedb: nothing appropriate.

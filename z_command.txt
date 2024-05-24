@@ -1,0 +1,1 @@
+./make_command_list.sh 2>>needtodo.txt| sort |nl| tee lst.txt
