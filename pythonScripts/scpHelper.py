@@ -22,6 +22,6 @@ fileNameOnSource=input("file name: ").strip();
 
 if(port!=""):
     # scp -p (port number) username@server:path/filename destPath/filename
-    print(f"scp -p {port} {remoteServerUsername}@{remoteServer}:{sourceLocation}/{fileNameOnSource} {destinationLocation}/{fileNameOnSource}");
+    print(f"scp -P {port} {remoteServerUsername}@{remoteServer}:{sourceLocation}/{fileNameOnSource} {destinationLocation}/{fileNameOnSource}");
 else:
     print(f"scp {remoteServerUsername}@{remoteServer}:{sourceLocation}/{fileNameOnSource} {destinationLocation}/{fileNameOnSource}");
